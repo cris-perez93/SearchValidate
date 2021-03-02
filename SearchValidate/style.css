@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+main{
+   height: 100vh;
+   width: 90%;
+   margin: auto;
+   box-sizing: border-box;
+}
+
+.search{
+    width: 70%;
+    margin: auto;
+    background: rgb(231, 212, 212);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom:;
+}
+
+.formulario{
+    width: 80%;
+    color: rgb(245, 245, 245);
+}
+
+.formulario__label{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.formulario__input{
+
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+button{
+    background: rgba(31, 29, 29, 0.623);
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 60px;
+    color: whitesmoke;
+    
+}
+
+i{
+    color: whitesmoke;
+    font-size: 16px;
+    
+}
+
+.formulario__input-error{
+    color: rgba(211, 9, 9, 0.589);
+    font-size: 12px;
+    font-weight: bold;
+    display:none;
+}
+
+.formulario__input-error-activo{
+    display: block;
+}
+
+.characters{
+    color: rgba(211, 9, 9, 0.589);
+    font-size: 12px;
+    font-weight: bold;
+    display:none;
+
+}
+
+.characters__input-error{
+    color: rgba(211, 9, 9, 0.589);
+    font-size: 12px;
+    font-weight: bold;
+    display:none;
+}
+
+.characters__input-error-activo{
+    display: block;
+}
